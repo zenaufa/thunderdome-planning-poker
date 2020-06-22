@@ -16,7 +16,7 @@ func InitConfig() {
 	viper.SetDefault("http.cookie_hashkey", "strongest-avenger")
 	viper.SetDefault("http.port", "8080")
 	viper.SetDefault("http.secure_cookie", true)
-	viper.SetDefault("http.domain", "thunderdome.dev")
+	viper.SetDefault("http.domain", "squad.zendro.id")
 	viper.SetDefault("analytics.enabled", true)
 	viper.SetDefault("analytics.id", "UA-140245309-1")
 	viper.SetDefault("db.host", "db")
