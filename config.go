@@ -16,7 +16,7 @@ func InitConfig() {
 	viper.SetDefault("http.cookie_hashkey", "strongest-avenger")
 	viper.SetDefault("http.port", "8080")
 	viper.SetDefault("http.secure_cookie", true)
-	viper.SetDefault("http.domain", "squad.zendro.id")
+	viper.SetDefault("http.domain", "poker.zendro.id")
 	viper.SetDefault("analytics.enabled", true)
 	viper.SetDefault("analytics.id", "UA-140245309-1")
 	viper.SetDefault("db.host", "db")
@@ -29,9 +29,9 @@ func InitConfig() {
 	viper.SetDefault("smtp.secure", true)
 	viper.SetDefault("smtp.sender", "no-reply@thunderdome.dev")
 	viper.SetDefault("config.allowedPointValues", 
-		[]string{"😄", "😐", "😔"})
+		[]string{"0", "1/2", "1", "2", "3", "5", "8", "13", "20", "40", "100", "?"})
 	viper.SetDefault("config.defaultPointValues",
-		[]string{"😄", "😐", "😔"})
+		[]string{"1", "2", "3", "5", "8", "13", "?" })
 
 	viper.BindEnv("http.cookie_hashkey", "COOKIE_HASHKEY")
 	viper.BindEnv("http.port", "PORT")
