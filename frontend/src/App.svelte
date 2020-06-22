@@ -138,7 +138,7 @@
     aria-label="main navigation">
     <div class="flex items-center flex-shrink-0 mr-6">
         <a href="/">
-            <img src="/img/logo.svg" alt="Thunderdome" class="nav-logo" />
+            <img src="/img/logo.svg" alt="Thunderdome" width="200" height="100" class="nav-logo">
         </a>
     </div>
     {#if activeWarrior.name}
