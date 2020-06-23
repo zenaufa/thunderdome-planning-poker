@@ -191,6 +191,7 @@
     {xfetch} />
 
 <footer class="p-6 text-center">
+    Zendroid Poker Planning is build based on 
     <a
         href="https://github.com/StevenWeathers/thunderdome-planning-poker"
         class="{footerLinkClasses}">
