@@ -9,8 +9,8 @@
         <div class="flex flex-wrap items-center -mx-4">
             <div class="w-full md:w-1/2 mb-4 lg:mb-0 px-4">
                 <h1 class="mb-2 lg:mb-4 text-4xl font-bold leading-tight">
-                    Thunderdome is an Open Source Agile Planning Poker app with
-                    a fun theme
+                    Zendroid Poker Planning is an Agile Planning Poker app with
+                    a fun theme, based on Thunderdome
                 </h1>
 
                 <ul class="text-lg lg:text-2xl mb-4">
